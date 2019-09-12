@@ -48,7 +48,7 @@ img {
 	color:white;
 	z-index:2;
 	padding:30px;
-	font-size:23px;
+	font-size:18px;
 	mix-blend-mode: difference;
 	position:fixed:
 }
@@ -62,12 +62,23 @@ img {
 	padding-top:30px;
 	padding-right:30px;
 	padding-bottom:10px;
-	font-size:23px;
+	font-size:18px;
 	mix-blend-mode: difference;
 	color:white;
 	position:fixed;
 	top:0;
 	right:0;
+}
+
+a {
+	color:white;
+	mix-blend-mode: difference;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style:italic;
+	cursor:pointer;
 }
 
 .contact-2 {
@@ -114,4 +125,38 @@ img {
 
 video{
   object-fit:cover
+}
+
+
+/*popup*/
+
+.popup-link {
+	cursor:pointer;
+}
+
+.popup {
+	height:100vh;
+	width:100vw;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:lime;
+	display:none;
+	align-items:center;
+	justify-content:center;
+	z-index:5;
+}
+
+.popup.active {
+	display:flex;
+	cursor:pointer;
+}
+
+.popup-image {
+	height:80vh;
+}
+
+.popup-image img {
+	height:100%;
+	width:auto;
 }
