@@ -61,12 +61,12 @@ img {
 	z-index:2;
 	padding-top:30px;
 	padding-right:30px;
-	padding-bottom:10px;
+	padding-bottom:30px;
 	font-size:18px;
 	mix-blend-mode: difference;
 	color:white;
 	position:fixed;
-	top:0;
+	bottom:0;
 	right:0;
 }
 
