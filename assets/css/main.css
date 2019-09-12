@@ -114,6 +114,6 @@ img {
       }
 
       video{
-  object-fit:fill
+  object-fit:cover
 
 }
