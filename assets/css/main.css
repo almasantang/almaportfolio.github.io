@@ -1,6 +1,6 @@
-* {
+/** {
 	outline:1px solid red;
-}
+}*/
 
 body {
 	font-family: helvetica; 
@@ -14,18 +14,27 @@ a {
 
 .background-black {
 	background-color: black;
+	border:none;
+}
+
+.logo-bar {
+	position:fixed;
+	margin:2%;
+}
+.logo {
+	font-weight: 400;
+	font-size:20px;
+	mix-blend-mode: difference;
+	border:none;
+	color:orange;
 }
 
 .bodycopy {
-/*	margin-top:50px;
-	margin-left:100px;
-	margin-right:80px;
-	font-size:60px;
-	line-height:70px;*/
 	font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
 	margin-right:5%;
+	margin-top:10%;
 }
 
 .smallbodycopy {
@@ -36,6 +45,10 @@ a {
 	margin-right:5%;
 	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.underline {
+	color:orange;
 }
 
 /*WAVE HAND ANIMATION STARTS HERE*/
@@ -50,6 +63,7 @@ a {
 
 .wavey {
 	margin-left:40%;
+	margin-top:80%;
 }
 
 @keyframes wave-animation {
@@ -64,13 +78,22 @@ a {
 }
 /*WAVE HAND ANIMATION ENDS HERE*/
 
+.projects {
+	margin-left:50%;
+	margin-top:20%;
+}
+
+.projects:hover {
+
+}
 
 .width-50 {
 	width:50%;
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
+	height:auto;
 }
 
 #myVideo {
@@ -89,16 +112,6 @@ img {
 	left:0px;
 }
 
-.name {
-	font-weight: 400;
-	top:0;
-	left:0;
-	z-index:2;
-	padding:30px;
-	font-size:18px;
-	mix-blend-mode: difference;
-	position:fixed:
-}
 
 
 .contact-1 {
