@@ -1,6 +1,6 @@
-* {
+/** {
 	outline:1px solid red;
-}
+}*/
 
 body {
 	font-family: helvetica; 
@@ -9,8 +9,17 @@ body {
 }
 
 a {
-	color:red;
+	color:white;
+	mix-blend-mode: difference;
+	text-decoration: none;
 }
+
+a:hover {
+	font-style:italic;
+	cursor:pointer;
+	color:#56fc03;
+}
+
 
 .background-black {
 	background-color: black;
@@ -26,7 +35,7 @@ a {
 	font-size:20px;
 	mix-blend-mode: difference;
 	border:none;
-	color:orange;
+	color:#56fc03;
 }
 
 .bodycopy {
@@ -54,7 +63,7 @@ a {
 }
 
 .underline {
-	color:orange;
+	color:#56fc03;
 }
 
 /*WAVE HAND ANIMATION STARTS HERE*/
@@ -136,16 +145,6 @@ img {
 	right:0;
 }
 
-a {
-	color:white;
-	mix-blend-mode: difference;
-	text-decoration: none;
-}
-
-a:hover {
-	font-style:italic;
-	cursor:pointer;
-}
 
 .contact-2 {
 	font-family: bd-retrocentric, sans-serif;
