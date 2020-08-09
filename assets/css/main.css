@@ -19,9 +19,11 @@ a {
 .bodycopy {
 /*	margin-top:50px;
 	margin-left:100px;
-	margin-right:80px;*/
+	margin-right:80px;
 	font-size:60px;
-	line-height:70px;
+	line-height:70px;*/
+	font-size: calc(20px + (60 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
 	margin-right:5%;
 }
