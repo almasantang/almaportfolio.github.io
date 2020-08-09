@@ -1,6 +1,6 @@
-/** {
+* {
 	outline:1px solid red;
-}*/
+}
 
 body {
 	font-family: helvetica; 
@@ -43,6 +43,12 @@ a {
 	margin-top:5%;
 	margin-left:5%;
 	margin-right:5%;
+	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.portfolio-part {
+	margin-left:5%;
 	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
