@@ -1,15 +1,15 @@
-/** {
+* {
 	outline:1px solid red;
 }
-*/
+
 body {
 	font-family: helvetica; 
 	font-weight: 100;
-	color:#fff6ed;
+	color:#84a59d;
 }
 
 a {
-	color:white;
+	color:#84a59d;
 	mix-blend-mode: difference;
 	text-decoration: none;
 }
@@ -17,25 +17,27 @@ a {
 a:hover {
 	font-style:italic;
 	cursor:pointer;
-	color:#56fc03;
+	color:#f28482;
 }
 
 
 .background-black {
-	background-color: black;
+	background-color: #fffffc;
 	border:none;
 }
 
 .logo-bar {
 	position:fixed;
 	margin:2%;
+	z-index: 2;
 }
+
 .logo {
 	font-weight: 400;
 	font-size:20px;
 	mix-blend-mode: difference;
 	border:none;
-	color:#56fc03;
+	color:#84a59d;
 }
 
 .bodycopy {
