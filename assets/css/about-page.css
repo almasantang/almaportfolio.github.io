@@ -1,18 +1,51 @@
-/*MAIN ELEMENTS START HERE*/
-/** {
-	outline:1px solid red;
-}*/
+/*CURSOR STARTS HERE*/
+* {
+  --cursorcolors: #FFFFFC;
+  cursor: default;
+}
 
+#svg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#polyline {
+  z-index: 1000;
+  stroke-dasharray: 0;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke: var(--cursorcolors) !important;
+}
+/*CURSOR ENDS HERE*/
+
+
+/*RED OUTLINE*/
+* {
+	outline:1px solid red;
+}
+/*RED OUTLINE*/
+
+/*MAIN ELEMENTS*/
 body {
 	font-family: helvetica; 
 	font-weight: 100;
 	color:black;
 }
 
+.background {
+	background-color: #04A362;
+	border:none;
+}
+
 a {
 	color:black;
-	mix-blend-mode: difference;
 	text-decoration: none;
+	cursor:pointer;
 }
 
 a:hover {
@@ -20,13 +53,7 @@ a:hover {
 	cursor:pointer;
 	color:#04A362;
 }
-
-
-.background-black {
-	background-color: #fffffc;
-	border:none;
-}
-/*MAIN ELEMENTS END HERE*/
+/*MAIN ELEMENTS*/
 
 
 /*AS LOGO STARTS HERE*/
@@ -38,9 +65,8 @@ a:hover {
 
 .logo {
 	font-size:40px;
-	mix-blend-mode: difference;
 	border:none;
-	color:#84a59d;
+	color:#FFFFFC;
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -78,12 +104,12 @@ a:hover {
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
 .bodycopy-hp {
-	font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (46 - 30) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
-	margin-right:5%;
+	margin-right:25%;
 	margin-top:10%;
-	text-align:right;
+	text-align:left;
 }
 
 .arrow-header {
@@ -91,71 +117,29 @@ a:hover {
 }
 /*HOMEPAGE HEADER COPY ENDS HERE*/
 
+
 /*HP PROJECT PIC STARTS HERE*/
 .projects {
 	margin-left:5%;
 }
-.pic-1 {
-	top: 636px;
-	left: 150px;
-	width: 455px;
-	height: 312px;
-}
-
-.pic-2 {
-	top: 669px;
-	left: 686px;
-	width: 510px;
-	height: 510px;
-}
-
-.pic-3 {
-	top: 598px;
-	left: 1263px;
-	width: 557px;
-	height: 556px;
-}
-
-.pic-4 {
-	top: 1023px;
-	left: 165px;
-	width: 567px;
-	height: 731px;
-}
-
-.pic-5 {
-	top: 1067px;
-	left: 935px;
-	width: 593px;
-	height: 593px;
-}
-
-.pic-6 {
-	top: 1418px;
-	left: 658px;
-	width: 456px;
-	height: 505px;
-}
-
-.pic-7 {
-	top: 1642px;
-	left: 47px;
-	width: 603px;
-	height: 603px;
-}
 
 .pic-8 {
-	top: 1498px;
+/*	top: 1498px;
 	left: 1161px;
 	width: 678px;
-	height: 678px;
+	height: 678px;*/
 	padding-left:10%;
 }
+/*HP PROJECT PIC ENDS HERE*/
 
+
+/*PORTFOLIO*/
 .download-porto {
 	color:#04A362;
 	text-decoration:underline;
 }
+/*PORTFOLIO*/
+
 
 /*SMALL BODY COPY STARTS HERE*/
 .smallbodycopy {
@@ -200,57 +184,5 @@ a:hover {
 img {
 	max-width: 30%;
 	height: auto;
-	display: inline;
-
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.bg {
-	width:100vw;
-	height:100vh;
-	background-color:black;
-	top:0px;
-	left:0px;
-}
-
-
-
-/*popup*/
-
-.popup-link {
-	cursor:pointer;
-}
-
-.popup {
-	height:100vh;
-	width:100vw;
-	position:fixed;
-	top:0px;
-	left:0px;
-	background:lime;
-	display:none;
-	align-items:center;
-	justify-content:center;
-	z-index:5;
-}
-
-.popup.active {
-	display:flex;
-	cursor:pointer;
-}
-
-.popup-image {
-	height:80vh;
-}
-
-.popup-image img {
-	height:100%;
-	width:auto;
+	display: inline-flex;
 }

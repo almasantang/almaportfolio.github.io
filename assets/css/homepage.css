@@ -1,0 +1,189 @@
+/*CURSOR STARTS HERE*/
+* {
+  --cursorcolors: #04A362;
+  cursor: default;
+}
+
+#svg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+#polyline {
+  z-index: 1000;
+  stroke-dasharray: 0;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke: var(--cursorcolors) !important;
+}
+/*CURSOR ENDS HERE*/
+
+
+/*RED OUTLINE*/
+* {
+	outline:1px solid red;
+}
+/*RED OUTLINE*/
+
+/*MAIN ELEMENTS*/
+body {
+	font-family: helvetica; 
+	font-weight: 100;
+	color:black;
+}
+
+.background {
+	background-color: #fffffc;
+	border:none;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+a:hover {
+	font-style:italic;
+	cursor:pointer;
+	color:#04A362;
+}
+/*MAIN ELEMENTS*/
+
+
+/*AS LOGO STARTS HERE*/
+.logo-bar {
+	position:fixed;
+	margin:2%;
+	z-index: 2;
+}
+
+.logo {
+	font-size:40px;
+	mix-blend-mode: difference;
+	border:none;
+	color:#84a59d;
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+/*AS LOGO ENDS HERE*/
+
+
+/*WAVE HAND ANIMATION STARTS HERE*/
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+  font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.wavey {
+	margin-left:40%;
+	margin-top:80%;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+/*WAVE HAND ANIMATION ENDS HERE*/
+
+
+/*HOMEPAGE HEADER COPY STARTS HERE*/
+.bodycopy-hp {
+	font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10%;
+	text-align:right;
+}
+
+.arrow-header {
+	color:#04A362;
+}
+/*HOMEPAGE HEADER COPY ENDS HERE*/
+
+
+/*HP PROJECT PIC STARTS HERE*/
+.projects {
+	margin-left:5%;
+}
+
+.pic-8 {
+/*	top: 1498px;
+	left: 1161px;
+	width: 678px;
+	height: 678px;*/
+	padding-left:10%;
+}
+/*HP PROJECT PIC ENDS HERE*/
+
+
+/*PORTFOLIO*/
+.download-porto {
+	color:#04A362;
+	text-decoration:underline;
+}
+/*PORTFOLIO*/
+
+
+/*SMALL BODY COPY STARTS HERE*/
+.smallbodycopy {
+/*	font-size:26px;
+	line-height:34px;*/
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:5%;
+	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.projectbodycopy {
+/*	font-size:26px;
+	line-height:34px;*/
+	margin-top:15%;
+	margin-left:5%;
+	margin-right:10%;
+	font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.portfolio-part {
+	margin-left:5%;
+	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.project-title {
+	color:#56fc03;
+}
+
+.underline {
+	color:#56fc03;
+}
+
+
+.width-50 {
+	width:50%;
+}
+
+img {
+	max-width: 30%;
+	height: auto;
+	display: inline-flex;
+}
