@@ -1,7 +1,7 @@
 /*RED OUTLINE*/
-/** {
+* {
 	outline:1px solid red;
-}*/
+}
 /*RED OUTLINE*/
 
 
@@ -121,11 +121,12 @@ a:hover {
 	margin-left:5%;
 }
 
-.alma-pic {
+.alma-pic img {
 	top: 35%;
 	left: 65%;
 	width: 100%;
 	height: auto;
+	display:block;
 	position:absolute;
 	z-index:-1;
 }
@@ -204,5 +205,4 @@ a:hover {
 img {
 	max-width: 30%;
 	height: auto;
-	display: inline-flex;
 }
