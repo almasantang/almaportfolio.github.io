@@ -1,3 +1,10 @@
+/*RED OUTLINE*/
+* {
+	outline:1px solid red;
+}
+/*RED OUTLINE*/
+
+
 /*CURSOR STARTS HERE*/
 * {
   --cursorcolors: #FFFFFC;
@@ -23,12 +30,6 @@
 }
 /*CURSOR ENDS HERE*/
 
-
-/*RED OUTLINE*/
-* {
-	outline:1px solid red;
-}
-/*RED OUTLINE*/
 
 /*MAIN ELEMENTS*/
 body {
@@ -64,7 +65,7 @@ a:hover {
 }
 
 .logo {
-	font-size:40px;
+	font-size: calc(26px + (40 - 26) * ((100vw - 300px) / (1600 - 300)));
 	border:none;
 	color:#FFFFFC;
 	font-family: degular-display,sans-serif;
@@ -104,7 +105,7 @@ a:hover {
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
 .bodycopy-hp {
-	font-size: calc(30px + (46 - 30) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(22px + (46 - 22) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
 	margin-right:25%;
@@ -124,17 +125,18 @@ a:hover {
 /*HOMEPAGE HEADER COPY ENDS HERE*/
 
 
-/*HP PROJECT PIC STARTS HERE*/
+/*ALMA PIC*/
 .projects {
 	margin-left:5%;
 }
 
-.pic-8 {
-/*	top: 1498px;
-	left: 1161px;
-	width: 678px;
-	height: 678px;*/
-	padding-left:10%;
+.alma-pic {
+	top: 351px;
+	left: 1100px;
+	width: 100%;
+	height: auto;
+	position:absolute;
+	z-index:-1;
 }
 /*HP PROJECT PIC ENDS HERE*/
 
@@ -151,9 +153,9 @@ a:hover {
 .smallbodycopy {
 /*	font-size:26px;
 	line-height:34px;*/
-	margin-top:5%;
+	margin-top:2%;
 	margin-left:5%;
-	margin-right:5%;
+	margin-right:25%;
 	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
@@ -161,18 +163,17 @@ a:hover {
 .projectbodycopy {
 /*	font-size:26px;
 	line-height:34px;*/
-	margin-top:15%;
 	margin-left:5%;
 	margin-right:10%;
 	font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
-.portfolio-part {
+.about-title {
 	margin-left:5%;
-	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+
 }
+
 
 .project-title {
 	color:#56fc03;
