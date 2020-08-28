@@ -104,15 +104,6 @@ a:hover {
 
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
-.bodycopy-hp {
-	font-size: calc(12px + (46 - 12) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-	margin-left:5%;
-	margin-right:25%;
-	margin-top:10%;
-	text-align:left;
-}
-
 .bodycopy-highlight {
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
@@ -131,8 +122,8 @@ a:hover {
 }
 
 .alma-pic {
-	top: 351px;
-	left: 1100px;
+	top: 35%;
+	left: 65%;
 	width: 100%;
 	height: auto;
 	position:absolute;
@@ -149,28 +140,33 @@ a:hover {
 /*PORTFOLIO*/
 
 
-/*SMALL BODY COPY STARTS HERE*/
+/*COPY*/
+.bodycopy-hp {
+	font-size: calc(18px + (44 - 18) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	margin-left:5%;
+	margin-right:25%;
+	margin-top:10%;
+	text-align:left;
+}
+
 .smallbodycopy {
 /*	font-size:26px;
 	line-height:34px;*/
 	margin-top:2%;
 	margin-left:5%;
 	margin-right:25%;
-	font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-}
-
-.projectbodycopy {
-/*	font-size:26px;
-	line-height:34px;*/
-	margin-left:5%;
-	margin-right:10%;
-	font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 .about-title {
+	margin-top:5%;
 	margin-left:5%;
+	margin-right:22%;
+	font-size: calc(12px + (46 - 12) * ((100vw - 300px) / (1600 - 300)));
+	color:#FFFFFC;
+
 
 }
 
