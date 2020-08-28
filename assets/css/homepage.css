@@ -105,7 +105,7 @@ a:hover {
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
 .bodycopy-hp {
-	font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
 	margin-right:5%;

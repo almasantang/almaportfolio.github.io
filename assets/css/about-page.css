@@ -112,6 +112,12 @@ a:hover {
 	text-align:left;
 }
 
+.bodycopy-highlight {
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 .arrow-header {
 	color:#04A362;
 }
