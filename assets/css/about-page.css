@@ -49,11 +49,11 @@ a {
 	cursor:pointer;
 }
 
-a:hover {
+/*a:hover {
 	font-style:italic;
 	cursor:pointer;
 	color:#04A362;
-}
+}*/
 /*MAIN ELEMENTS*/
 
 
@@ -71,6 +71,17 @@ a:hover {
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+.logo-nav {
+	color:#FFFFFC;
+}
+
+.logo-nav:hover {
+	color:#FFFFFC;
+	font-style:none;
+	text-decoration:none;
+	cursor:pointer;
 }
 /*AS LOGO ENDS HERE*/
 
@@ -190,11 +201,13 @@ a:hover {
 
 .contact-link:hover {
 	color:black;
+	font-style:italic;
 }
 
 .about-body-desc-link:hover {
 	text-decoration:underline;
 	color:black;
+	font-style:italic;
 }
 
 .navigation {
@@ -203,6 +216,7 @@ a:hover {
 
 .navigation:hover {
 	color:#FFFFFC;
+	font-style:italic;
 }
 
 
