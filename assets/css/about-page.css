@@ -1,7 +1,7 @@
 /*RED OUTLINE*/
-* {
+/** {
 	outline:1px solid red;
-}
+}*/
 /*RED OUTLINE*/
 
 
@@ -163,20 +163,37 @@ a:hover {
 .about-title {
 	margin-top:5%;
 	margin-left:5%;
-	margin-right:22%;
-	font-size: calc(12px + (46 - 12) * ((100vw - 300px) / (1600 - 300)));
+	margin-right:20%;
+	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	color:#FFFFFC;
-
-
 }
 
-
-.project-title {
-	color:#56fc03;
+.about-body {
+	margin-top:1%;
+	margin-left:8%;
+	margin-right:20%;
+	font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
-.underline {
-	color:#56fc03;
+.about-body-desc {
+	margin-right:20%;
+	font-size: calc(12px + (25 - 12) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+}
+
+.about-body-desc-link {
+	text-decoration:underline;
+}
+
+.contact-link:hover {
+	color:black;
+}
+
+.about-body-desc-link:hover {
+	text-decoration:underline;
+	color:black;
 }
 
 
