@@ -1,3 +1,10 @@
+/*RED OUTLINE*/
+* {
+	outline:1px solid red;
+}
+/*RED OUTLINE*/
+
+
 /*CURSOR STARTS HERE*/
 * {
   --cursorcolors: #04A362;
@@ -23,12 +30,6 @@
 }
 /*CURSOR ENDS HERE*/
 
-
-/*RED OUTLINE*/
-* {
-	outline:1px solid red;
-}
-/*RED OUTLINE*/
 
 /*MAIN ELEMENTS*/
 body {
