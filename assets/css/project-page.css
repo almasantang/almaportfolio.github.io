@@ -19,6 +19,7 @@
   left: 0;
   z-index: 1000;
   pointer-events: none;
+    mix-blend-mode: difference;
 }
 
 #polyline {
@@ -38,10 +39,6 @@ body {
 	color:black;
 }
 
-.background {
-	background-color: #04A362;
-	border:none;
-}
 
 a {
 	color:black;
@@ -56,108 +53,27 @@ a:hover {
 }
 /*MAIN ELEMENTS*/
 
-
-/*AS LOGO STARTS HERE*/
-.logo-bar {
-	position:fixed;
-	margin:2%;
-	z-index: 2;
-}
-
-.logo {
-	font-size: calc(16px + (40 - 16) * ((100vw - 300px) / (1600 - 300)));
-	border:none;
-	color:#FFFFFC;
-	font-family: degular-display,sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-/*AS LOGO ENDS HERE*/
-
-
-/*WAVE HAND ANIMATION STARTS HERE*/
-.wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
-  font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-}
-
-.wavey {
-	margin-left:40%;
-	margin-top:80%;
-}
-
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-/*WAVE HAND ANIMATION ENDS HERE*/
-
-
-/*HOMEPAGE HEADER COPY STARTS HERE*/
-.bodycopy-highlight {
-	font-family: degular-display,sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-
-.arrow-header {
-	color:#04A362;
-}
-/*HOMEPAGE HEADER COPY ENDS HERE*/
-
-
-/*ALMA PIC*/
-.projects {
-	margin-left:5%;
-}
-
-.alma-pic img {
-	top: 35%;
-	left: 65%;
-	width: 100%;
-	height: auto;
-	display:block;
-	position:absolute;
-	z-index:-1;
-}
-/*HP PROJECT PIC ENDS HERE*/
-
-
-/*PORTFOLIO*/
-.download-porto {
-	color:#04A362;
-	text-decoration:underline;
-}
-/*PORTFOLIO*/
-
-
-/*COPY*/
-.bodycopy-hp {
-	font-size: calc(18px + (44 - 18) * ((100vw - 300px) / (1600 - 300)));
+.title {
+	font-size: calc(8px + (20 - 8) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	margin-left:5%;
 	margin-right:25%;
 	margin-top:10%;
 	text-align:left;
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.smallbodycopy {
-/*	font-size:26px;
-	line-height:34px;*/
+.titledesc {
+	color:#818080;
+}
+
+.mainbodycopy {
 	margin-top:2%;
 	margin-left:5%;
-	margin-right:25%;
-	font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
+	margin-right:40%;
+	font-size: calc(12px + (40 - 12) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
@@ -172,37 +88,37 @@ a:hover {
 
 .about-body {
 	margin-top:1%;
-	margin-left:8%;
-	margin-right:20%;
-	font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
+	margin-left:5%;
+	margin-right:45%;
+	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
-.about-body-desc {
-	margin-right:20%;
-	font-size: calc(12px + (25 - 12) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-}
 
 .about-body-desc-link {
 	text-decoration:underline;
 }
 
-.contact-link:hover {
-	color:black;
+/*AS LOGO STARTS HERE*/
+.logo-bar {
+	position:fixed;
+	margin:2%;
+	z-index: 2;
 }
 
-.about-body-desc-link:hover {
-	text-decoration:underline;
-	color:black;
+.logo {
+	font-size: calc(16px + (40 - 16) * ((100vw - 300px) / (1600 - 300)));
+	border:none;
+	color:#000000;
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	opacity:50%;
 }
+/*AS LOGO ENDS HERE*/
 
-
-.width-50 {
-	width:50%;
-}
 
 img {
-	max-width: 30%;
+	max-width: 100%;
 	height: auto;
 }

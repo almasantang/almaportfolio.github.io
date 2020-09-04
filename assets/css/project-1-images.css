@@ -1,0 +1,50 @@
+.pr1-image-1 img {
+	top: 1324px;
+	left: 150px;
+	width: 576px;
+	height:auto;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
+
+
+.pr1-image-2 img {
+	top: 1869px;
+	left: 852px;
+	width: 576px;
+	height: auto;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
+
+.pr1-image-3 img {
+	top: 2468px;
+	left: 336px;
+	width: 622px;
+	height: auto;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
+
+.pr1-image-4 img {
+	top: 3017px;
+	left: 800px;
+	width: 826px;
+	height: auto;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
+
+.pr1-image-5 img {
+	top: 3377px;
+	left: 236px;
+	width: 825px;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
+
