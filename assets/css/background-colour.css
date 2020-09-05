@@ -3,15 +3,10 @@
 	border:none;
 }
 
-/*PROJECT ONE*/
 .background-pr1 {
 	background-color: #F4A261;
 	border:none;
 	margin-top:1%;
-}
-
-.titlepr1 {
-	color: #FF4F00;
 }
 
 .background-pr2 {
@@ -50,11 +45,52 @@
 	margin-top:1%;
 }
 
-.background-pr7 {
+.background-pr8 {
 	background-color: #3C4148;
+	border:none;
+	margin-top:1%;
+}
+
+.background-pr9 {
+	background-color: #D8839A;
 	border:none;
 	margin-top:1%;
 }
 
 /*TEXT COLOUR*/
 
+.titlepr1 {
+	color: #FF4F00;
+}
+
+.titlepr2 {
+	color:#2474E2;
+}
+
+.titlepr3 {
+	color:#04A362;
+}
+
+.titlepr4 {
+	color:#3C4148;
+}
+
+.titlepr5 {
+	color:#E0494F;
+}
+
+.titlepr6 {
+	color:#FFC048;
+}
+
+.titlepr7 {
+	color:#6D7E6C;
+}
+
+.titlepr8 {
+	color:#3C4148;
+}
+
+.titlepr9 {
+	color:#D8839A;
+}

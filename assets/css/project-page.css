@@ -47,7 +47,6 @@ a {
 }
 
 a:hover {
-	font-style:italic;
 	cursor:pointer;
 	color:#04A362;
 }
@@ -67,6 +66,7 @@ a:hover {
 
 .titledesc {
 	color:#818080;
+	margin-bottom:1%;
 }
 
 .mainbodycopy {
@@ -90,8 +90,8 @@ a:hover {
 	margin-top:1%;
 	margin-left:5%;
 	margin-right:45%;
-	font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
-	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	font-size: calc(10px + (18 - 10) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.4em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 
@@ -99,9 +99,59 @@ a:hover {
 	text-decoration:underline;
 }
 
+/*NAVIGATION*/
+.navigation-home {
+	position:fixed;
+	bottom:5%;
+	left:5%;
+	z-index:2;
+	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	mix-blend-mode: difference;
+	color:white;
+}
+
+.navigation-home:hover {
+	font-style:italic;
+	color:white;
+}
+
+.navigation-next {
+	position:fixed;
+	bottom:5%;
+	right:5%;
+	z-index:2;
+	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	mix-blend-mode: difference;
+	color:white;
+}
+
+.navigation-next:hover {
+	font-style:italic;
+	color:white;
+}
+
+.navigation-prev {
+	position:fixed;
+	bottom:5%;
+	right:12%;
+	z-index:2;
+	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	mix-blend-mode: difference;
+	color:white;
+}
+
+.navigation-prev:hover {
+	font-style:italic;
+	color:white;
+}
+/*NAVIGATION*/
+
 /*AS LOGO STARTS HERE*/
 .logo-bar {
-	position:fixed;
+	position: absolute;
 	margin:2%;
 	z-index: 2;
 }
@@ -114,6 +164,17 @@ a:hover {
 	font-weight: 400;
 	font-style: normal;
 	opacity:50%;
+}
+
+.logo-nav {
+	color:#000000;
+}
+
+.logo-nav:hover {
+	color:#000000;
+	font-style:none;
+	text-decoration:none;
+	cursor:pointer;
 }
 /*AS LOGO ENDS HERE*/
 

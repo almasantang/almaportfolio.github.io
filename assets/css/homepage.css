@@ -125,13 +125,79 @@ a:hover {
 	margin-left:5%;
 }
 
-.pic-8 {
-/*	top: 1498px;
-	left: 1161px;
-	width: 678px;
-	height: 678px;*/
-	padding-left:10%;
+.pic-1 img {
+	position:absolute;
+	top: 50vh;
+	left: 5vw;
+	width: 455px;
+	height: auto;
 }
+
+.pic-2 img {
+	position:absolute;
+	top: 54vh;
+	left: 35vw;
+	width: 510px;
+	height: auto;
+}
+
+.pic-3 img {
+	position:absolute;
+	top: 60vh;
+	left: 70vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-4 img {
+	position:absolute;
+	top: 85vh;
+	left: 8vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-5 img {
+	position:absolute;
+	top: 100vh;
+	left: 50vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-6 img {
+	position:absolute;
+	top: 130vh;
+	left: 34vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-7 img {
+	position:absolute;
+	top: 140vh;
+	left: 0vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-8 img {
+	position:absolute;
+	top: 150vh;
+	left: 66vw;
+	width: 557px;
+	height:auto;
+}
+
+.pic-9 img {
+	position:absolute;
+	top: 180vh;
+	left: 46vw;
+	width: 557px;
+	height:auto;
+}
+
+
 /*HP PROJECT PIC ENDS HERE*/
 
 
