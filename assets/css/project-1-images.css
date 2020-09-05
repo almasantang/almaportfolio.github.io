@@ -1,7 +1,7 @@
 .pr1-image-1 img {
 	top: 1324px;
 	left: 150px;
-	width: 576px;
+	max-width: 576px;
 	height:auto;
 	display:block;
 	position:absolute;
@@ -131,3 +131,20 @@
 	z-index:1;
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#box {
+  /* The box that will responsively resize */
+  position: relative;
+}
+#box img {
+  	display: block;
+	height:auto;
+	display:block;
+	position:absolute;
+	z-index:-1;
+}
