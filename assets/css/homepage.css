@@ -32,6 +32,10 @@
 
 
 /*MAIN ELEMENTS*/
+.copyright {
+	margin-left:2%;
+}
+
 body {
 	font-family: helvetica; 
 	font-weight: 100;
