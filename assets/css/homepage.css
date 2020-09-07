@@ -7,7 +7,7 @@
 
 /*CURSOR STARTS HERE*/
 * {
-  --cursorcolors: #04A362;
+  --cursorcolors: #bceafc;
   cursor: default;
 }
 
@@ -19,13 +19,14 @@
   left: 0;
   z-index: 4;
   pointer-events: none;
+  mix-blend-mode: difference;
 }
 
 #polyline {
   z-index: 1000;
   stroke-dasharray: 0;
   stroke-width: 3;
-  stroke-linecap: square;
+  stroke-linecap: round;
   stroke: var(--cursorcolors) !important;
 }
 /*CURSOR ENDS HERE*/
@@ -50,12 +51,15 @@ body {
 a {
 	color:black;
 	text-decoration: none;
+	z-index:10;
 }
 
 a:hover {
 	font-style:italic;
 	cursor:pointer;
 	color:#04A362;
+	z-index:10;
+
 }
 /*MAIN ELEMENTS*/
 
@@ -63,8 +67,13 @@ a:hover {
 /*AS LOGO STARTS HERE*/
 .logo-bar {
 	position:fixed;
-	margin:2%;
+	margin-top:2%;
+	justify-content: center;
+	align-items: center;
 	z-index: 2;
+	width:100%;
+	display:flex;
+
 }
 
 .logo {
@@ -74,7 +83,10 @@ a:hover {
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: calc(16px + (40 - 16) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
+	border-bottom: 1px dotted black;
+	border-radius:25px;
+	padding-bottom:0.5%;
 }
 /*AS LOGO ENDS HERE*/
 
@@ -106,6 +118,8 @@ a:hover {
 }
 /*WAVE HAND ANIMATION ENDS HERE*/
 
+/*FADE IN*/
+
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
 .bodycopy-hp {
@@ -115,10 +129,39 @@ a:hover {
 	margin-right:5%;
 	margin-top:10%;
 	text-align:right;
+	animation-name: fadeInOut;
+  	animation-delay: 0s;
+  	animation-duration: 9s;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 .arrow-header {
-	color:#04A362;
+	color:black;
+	border:1px dotted black;
+	border-radius:40%;
+}
+
+.arrow-header:hover {
+	color:black;
+	border:1px solid black;
+	border-radius:40%;
+}
+
+.arrow-header-2 {
+	color:black;
 }
 /*HOMEPAGE HEADER COPY ENDS HERE*/
 
@@ -126,13 +169,29 @@ a:hover {
 /*HP PROJECT PIC STARTS HERE*/
 .projects {
 	margin-left:5%;
-	z-index:10;
+	z-index:100;
 }
 
 .pic {
 	cursor:pointer;
-	z-index:10;
+	z-index:100;
 }
+
+.pic:hover {
+	border:1px dotted black;
+	border-radius:40%;
+}
+
+/*img {
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: 0.3s;
+}*/
 
 
 /*HP PROJECT PIC ENDS HERE*/

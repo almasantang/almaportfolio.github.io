@@ -1,66 +1,68 @@
+
+
 .background {
-	background-color: #FFFFFC;
+	background-color: #efede8;
 	border:none;
 }
 
 .background-pr1 {
-	background-color: #F4A261;
+	background-color: #e97010;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr2 {
 	background-color: #2474E2;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr3 {
 	background-color: #04A362;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr4 {
 	background-color: #3C4148;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr5 {
 	background-color: #E0494F;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr6 {
 	background-color: #FFC048;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr7 {
 	background-color: #6D7E6C;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr8 {
 	background-color: #3C4148;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 .background-pr9 {
 	background-color: #D8839A;
 	border:none;
-	margin-top:1%;
+	margin-top:0.5%;
 }
 
 /*TEXT COLOUR*/
 
 .titlepr1 {
-	color: #FF4F00;
+	color: #e97010;
 }
 
 .titlepr2 {

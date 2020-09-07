@@ -25,7 +25,7 @@
   z-index: 1000;
   stroke-dasharray: 0;
   stroke-width: 3;
-  stroke-linecap: square;
+  stroke-linecap: round;
   stroke: var(--cursorcolors) !important;
 }
 /*CURSOR ENDS HERE*/
@@ -39,7 +39,7 @@ body {
 }
 
 .background {
-	background-color: #04A362;
+	background-color: #84b2d7;
 	border:none;
 }
 
@@ -59,60 +59,40 @@ a {
 
 /*AS LOGO STARTS HERE*/
 .logo-bar {
-	position:fixed;
-	margin:2%;
+	margin-top:2%;
+	justify-content: center;
+	align-items: center;
 	z-index: 2;
+	width:100%;
+	display:flex;
+
 }
 
 .logo {
-	font-size: calc(16px + (40 - 16) * ((100vw - 300px) / (1600 - 300)));
+	mix-blend-mode: difference;
 	border:none;
-	color:#FFFFFC;
+	color:#84a59d;
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
+	border-bottom: 1px dotted black;
+	border-radius:25px;
+	padding-bottom:0.5%;
 }
 
 .logo-nav {
-	color:#FFFFFC;
+	color:black;
 }
 
 .logo-nav:hover {
-	color:#FFFFFC;
+	color:black;
 	font-style:none;
 	text-decoration:none;
 	cursor:pointer;
 }
 
 /*AS LOGO ENDS HERE*/
-
-
-/*WAVE HAND ANIMATION STARTS HERE*/
-.wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-  display: inline-block;
-  font-size: calc(40px + (60 - 40) * ((100vw - 300px) / (1600 - 300)));
-}
-
-.wavey {
-	margin-left:40%;
-	margin-top:80%;
-}
-
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
-}
-/*WAVE HAND ANIMATION ENDS HERE*/
 
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
@@ -141,6 +121,9 @@ a {
 	display:block;
 	position:absolute;
 	z-index:-1;
+		animation-name: fadeInOut;
+  	animation-delay: 0s;
+  	animation-duration: 9s;
 }
 /*HP PROJECT PIC ENDS HERE*/
 
@@ -162,6 +145,21 @@ a {
 	margin-top:10%;
 	text-align:left;
 }
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
 
 .smallbodycopy {
 /*	font-size:26px;
@@ -197,7 +195,9 @@ a {
 }
 
 .about-body-desc-link {
-	text-decoration:underline;
+	text-decoration:none;
+	border:1px dotted black;
+	border-radius:40%;
 }
 
 .contact-link:hover {
@@ -206,9 +206,10 @@ a {
 }
 
 .about-body-desc-link:hover {
-	text-decoration:underline;
 	color:black;
 	font-style:italic;
+	border:1px solid black;
+	border-radius:40%;
 }
 
 .navigation {
@@ -220,6 +221,14 @@ a {
 	font-style:italic;
 }
 
+.takemehome {
+	margin-top:5%;
+	margin-left:5%;
+	margin-right:20%;
+	font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	color:#FFFFFC;
+}
 
 .width-50 {
 	width:50%;
