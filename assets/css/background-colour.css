@@ -59,6 +59,12 @@
 	margin-top:0.5%;
 }
 
+.background-pr12 {
+	background-color: #B3DCF4;
+	border:none;
+	margin-top:0.5%;
+}
+
 /*TEXT COLOUR*/
 
 .titlepr1 {
@@ -95,4 +101,8 @@
 
 .titlepr9 {
 	color:#D8839A;
+}
+
+.titlepr12 {
+	color:#66B4DE;
 }
