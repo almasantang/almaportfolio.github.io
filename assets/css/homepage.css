@@ -45,7 +45,7 @@ body {
 }
 
 .background {
-	background-color: #fffffc;
+	background-color: #efede8;
 	border:none;
 }
 
@@ -133,6 +133,7 @@ a:hover {
 	animation-name: fadeInOut;
   	animation-delay: 0s;
   	animation-duration: 9s;
+  	
 }
 
 @keyframes fadeInOut {
