@@ -8,7 +8,6 @@
 /*CURSOR STARTS HERE*/
 * {
   --cursorcolors: #FFFFFC;
-  cursor: default;
 }
 
 #svg {
@@ -36,12 +35,27 @@ body {
 	font-family: helvetica; 
 	font-weight: 100;
 	color:black;
+	background: linear-gradient(-45deg, #bfeafc, #ffafcd, #bfeafc, #FFFFFC);
+	background-size: 300% 300%;
+	animation: gradient 30s ease infinite;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/*
 .background {
 	background-color: #84b2d7;
 	border:none;
-}
+}*/
 
 a {
 	color:black;
@@ -121,9 +135,10 @@ a {
 	display:block;
 	position:absolute;
 	z-index:-1;
-		animation-name: fadeInOut;
+	animation-name: fadeInOut;
   	animation-delay: 0s;
   	animation-duration: 9s;
+  	cursor:move;
 }
 /*HP PROJECT PIC ENDS HERE*/
 
@@ -145,6 +160,7 @@ a {
 	margin-top:10%;
 	text-align:left;
 }
+
 
 @keyframes fadeInOut {
   0% {
@@ -178,6 +194,7 @@ a {
 	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	color:#FFFFFC;
+
 }
 
 .about-body {
@@ -186,11 +203,26 @@ a {
 	margin-right:20%;
 	font-size: calc(12px + (30 - 12) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	font-weight:400;
+	font-family: helvetica; 
+	font-weight: 100;
+	color:black;
 }
 
 .about-body-desc {
 	margin-right:20%;
+	padding-left:5%;
+	padding-top:1%;
 	font-size: calc(12px + (25 - 12) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	font-family: helvetica; 
+	font-weight: 100;
+	color:black;
+}
+
+.jobdate {
+	margin-right:20%;
+	font-size: calc(10px + (16 - 10) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
