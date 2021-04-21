@@ -40,7 +40,8 @@
 	z-index: 2;
 	width:100%;
 	display:flex;
-	border:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
 	background: white;
 
 }
@@ -164,21 +165,24 @@ a:hover {
 
 /*NAVIGATION*/
 .navigation {
-	border:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
 	background:white;
 	padding:1%;
 	padding-bottom:1.4%;
-	padding-top:1.4%;
+	padding-top:2.2%;
 	width:100%;
 	position:fixed;
 	bottom:0px;
 	z-index:100;
+	display:flex;
+	color:white;
 }
 .navigation-home {
 	position:fixed;
 	bottom:1%;
 	z-index:2;
-	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	color:black;
 	padding-left:2%;
@@ -195,11 +199,11 @@ a:hover {
 	bottom:1%;
 	right:5%;
 	z-index:10;
-	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	color:black;
-	border:1px solid black;
-	border-radius:100%;
+/*	border:1px solid black;
+	border-radius:100%;*/
 }
 
 .navigation-next:hover {
@@ -211,11 +215,11 @@ a:hover {
 	bottom:1%;
 	right:18%;
 	z-index:4;
-	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 	color:black;
-	border:1px solid black;
-	border-radius:100%;
+/*	border:1px solid black;
+	border-radius:100%;*/
 }
 
 .navigation-prev:hover {
