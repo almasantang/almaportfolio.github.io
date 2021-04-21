@@ -35,6 +35,7 @@
 /*MAIN ELEMENTS*/
 html {
   scroll-behavior: smooth;
+  transition-delay: 0.2s;
 }
 
 .copyright {
@@ -139,7 +140,8 @@ a:hover {
 	animation-name: fadeInOut;
   	animation-delay: 0s;
   	animation-duration: 9s;
-  	
+  	position:fixed;
+  	z-index:-1;
 }
 
 @keyframes fadeInOut {
@@ -177,8 +179,12 @@ a:hover {
 
 /*HP PROJECT PIC STARTS HERE*/
 .projects {
-	margin-left:5%;
-	z-index:100;
+	padding-left:5%;
+	top:70%;
+	margin-top:30%;
+	position:absolute;
+	z-index:2;
+	background:white;
 }
 
 .pic {

@@ -172,7 +172,7 @@ a:hover {
 .navigation-prev {
 	position:fixed;
 	bottom:5%;
-	right:12%;
+	right:18%;
 	z-index:4;
 	font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
