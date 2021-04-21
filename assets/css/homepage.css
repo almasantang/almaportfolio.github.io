@@ -49,15 +49,16 @@ body {
 	font-family: helvetica; 
 	font-weight: 100;
 	color:black;
+	background:black;
 }
 
 .background {
 	border:none;
-	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, white);
+	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, black);
 }
 
 a {
-	color:black;
+	color:white;
 	text-decoration: none;
 	z-index:10;
 	transition: 0.3s;
@@ -149,7 +150,9 @@ a:hover {
   	animation-duration: 9s;
   	position:fixed;
   	z-index:-1;
-  	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, white);
+  	color:white;
+  	/*background: radial-gradient(500px 950px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, black);*/
+  	background:#0e0e0e;
 
 
 }
@@ -170,14 +173,14 @@ a:hover {
 
 .arrow-header {
 	color:black;
-	border:1px dotted black;
+	border:1px dotted white;
 	border-radius:40%;
 	transition: 0.3s;
 }
 
 .arrow-header:hover {
 	color:black;
-	border:1px solid black;
+	border:1px solid white;
 	border-radius:40%;
 }
 

@@ -18,6 +18,7 @@
   left: 0;
   z-index: 1000;
   pointer-events: none;
+    mix-blend-mode: difference;
 }
 
 #polyline {
@@ -35,9 +36,9 @@ body {
 	font-family: helvetica; 
 	font-weight: 100;
 	color:black;
-	background: linear-gradient(-45deg, #bfeafc, #ffafcd, #bfeafc, #FFFFFC);
+	background: linear-gradient(-45deg, #bfeafc, #FFFFFC, #FFFFFC, #bfeafc);
 	background-size: 300% 300%;
-	animation: gradient 30s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -71,8 +72,30 @@ a {
 /*MAIN ELEMENTS*/
 
 
-/*AS LOGO STARTS HERE*/
 .logo-bar {
+	position:fixed;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	width:100%;
+	display:flex;
+	border:1px solid black;
+	background: white;
+
+}
+
+.logo {
+	border:none;
+	color:#84a59d;
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+/*	border-bottom: 1px dotted black;*/
+	padding:1%;
+}
+/*AS LOGO STARTS HERE*/
+/*.logo-bar {
 	margin-top:2%;
 	justify-content: center;
 	align-items: center;
@@ -105,7 +128,7 @@ a {
 	text-decoration:none;
 	cursor:pointer;
 }
-
+*/
 /*AS LOGO ENDS HERE*/
 
 
@@ -193,7 +216,7 @@ a {
 	margin-right:20%;
 	font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-	color:#FFFFFC;
+	color:black;
 
 }
 
@@ -245,11 +268,11 @@ a {
 }
 
 .navigation {
-	color:#FFFFFC;
+	color:black;
 }
 
 .navigation:hover {
-	color:#FFFFFC;
+	color:black;
 	font-style:italic;
 }
 
@@ -259,7 +282,7 @@ a {
 	margin-right:20%;
 	font-size: calc(14px + (30 - 14) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-	color:#FFFFFC;
+	color:black;
 }
 
 .width-50 {
