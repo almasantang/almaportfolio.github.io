@@ -35,12 +35,14 @@
 /*MAIN ELEMENTS*/
 html {
   scroll-behavior: smooth;
-  transition-delay: 0.2s;
 }
 
 .copyright {
 	margin-left:2%;
 	font-size:10px;
+	position:fixed;
+	bottom:2%;
+	z-index:10;
 }
 
 body {
@@ -50,8 +52,8 @@ body {
 }
 
 .background {
-	background-color: white;
 	border:none;
+	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, white);
 }
 
 a {
@@ -74,26 +76,25 @@ a:hover {
 /*AS LOGO STARTS HERE*/
 .logo-bar {
 	position:fixed;
-	margin-top:2%;
 	justify-content: center;
 	align-items: center;
-	z-index: 2;
+	z-index: 10;
 	width:100%;
 	display:flex;
+	border:1px solid black;
+	background: white;
 
 }
 
 .logo {
-	mix-blend-mode: difference;
 	border:none;
 	color:#84a59d;
 	font-family: degular-display,sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
-	border-bottom: 1px dotted black;
-	border-radius:25px;
-	padding-bottom:0.5%;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+/*	border-bottom: 1px dotted black;*/
+	padding:1%;
 }
 /*AS LOGO ENDS HERE*/
 
@@ -129,19 +130,28 @@ a:hover {
 
 
 /*HOMEPAGE HEADER COPY STARTS HERE*/
+
+
 .bodycopy-hp {
 	font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
 	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-	margin-left:5%;
+/*	margin-left:5%;
 	margin-right:5%;
-	margin-top:10%;
 	margin-bottom:25%;
+	margin-top:15%;*/
+	padding-left:5%;
+	padding-right:5%;
+	padding-top:15%;
+	padding-bottom:25%;
 	text-align:right;
 	animation-name: fadeInOut;
   	animation-delay: 0s;
   	animation-duration: 9s;
   	position:fixed;
   	z-index:-1;
+  	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, white);
+
+
 }
 
 @keyframes fadeInOut {
@@ -179,12 +189,12 @@ a:hover {
 
 /*HP PROJECT PIC STARTS HERE*/
 .projects {
-	padding-left:5%;
 	top:70%;
 	margin-top:30%;
 	position:absolute;
 	z-index:2;
 	background:white;
+	text-align:center;
 }
 
 .pic {
@@ -261,7 +271,7 @@ img:hover {
 }
 
 img {
-	max-width: 30%;
+	max-width: 60%;
 	height: auto;
 	display: inline-flex;
 }

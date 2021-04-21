@@ -34,6 +34,32 @@
 
 /*AS LOGO STARTS HERE*/
 .logo-bar {
+	position:fixed;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+	width:100%;
+	display:flex;
+	border:1px solid black;
+	background: white;
+
+}
+
+.logo {
+	border:none;
+	color:#84a59d;
+	font-family: degular-display,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+/*	border-bottom: 1px dotted black;*/
+	padding:1%;
+}
+/*AS LOGO ENDS HERE*/
+
+/*AS LOGO STARTS HERE*/
+
+/*.logo-bar {
 	margin-top:0%;
 	justify-content: center;
 	align-items: center;
@@ -54,7 +80,7 @@
 	border-radius:25px;
 	padding-bottom:0.5%;
 	padding-top:1%;
-}
+}*/
 
 .logo-nav {
 	color:black;
