@@ -4,6 +4,68 @@
 }*/
 /*RED OUTLINE*/
 
+/*NAVIGATION*/
+.navigation {
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background:white;
+	padding:1%;
+	padding-bottom:1.4%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	z-index:100;
+	display:flex;
+	color:white;
+}
+.navigation-home {
+	position:fixed;
+	bottom:1%;
+	z-index:2;
+	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	color:black;
+	padding-left:2%;
+}
+
+.navigation-home:hover {
+	font-style:italic;
+	color:black;
+}
+
+.navigation-next {
+	position:fixed;
+	bottom:1%;
+	right:5%;
+	z-index:10;
+	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	color:black;
+/*	border:1px solid black;
+	border-radius:100%;*/
+}
+
+.navigation-next:hover {
+	font-style:italic;
+}
+
+.navigation-prev {
+	position:fixed;
+	bottom:1%;
+	right:18%;
+	z-index:4;
+	font-size: calc(14px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
+	line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+	color:black;
+/*	border:1px solid black;
+	border-radius:100%;*/
+}
+
+.navigation-prev:hover {
+	font-style:italic;
+	color:black;
+}
+/*NAVIGATION*/
 
 /*CURSOR STARTS HERE*/
 * {
@@ -268,14 +330,6 @@ a {
 	border-radius:40%;
 }
 
-.navigation {
-	color:black;
-}
-
-.navigation:hover {
-	color:black;
-	font-style:italic;
-}
 
 .takemehome {
 	margin-top:5%;
