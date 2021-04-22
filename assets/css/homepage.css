@@ -52,10 +52,6 @@ body {
 	background:#0e0e0e;
 }
 
-.background {
-	border:none;
-	background: radial-gradient(400px 450px at top left, pink, transparent), radial-gradient(400px 450px at top right, #bfeafc, black);
-}
 
 a {
 	color:white;
