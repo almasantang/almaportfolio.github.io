@@ -8,8 +8,8 @@
 /* MAIN THINGS */
 
 html, body {
-  cursor:url(https://pbs.twimg.com/media/E32VMtsVIAg0c6Z.png),auto;
-  z-index:1000;
+  cursor:url(https://pbs.twimg.com/media/E32VMtsVIAg8Gvr.png),auto;
+  z-index:5000;
 }
 
 html {
@@ -188,7 +188,7 @@ section.new-layout div.artwork, div.artwork-2, div.artwork-3 {
 
 /* SLIDESHOW STARTS HERE*/
 * {box-sizing: border-box}
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {display: none}
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7 {display: none}
 
 .slideshow-container {
   max-width: 100%;
