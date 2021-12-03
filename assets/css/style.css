@@ -26,7 +26,7 @@ body {
 	line-height: 1.5;
   color: black;
   
-  background-color: white;
+  background-color: white
   margin: 46px auto 20px auto;
 	width: 1600px;
 }
@@ -228,6 +228,7 @@ section.new-layout div.artwork, div.artwork-2, div.artwork-3 {
 
 
 /* INFO, SERVICE, WORK WITH ME, PRESS STARTS HERE */
+
 section.important div.info-1 span.spice {
   cursor: url(https://pbs.twimg.com/media/E32VunRUYBAh9IL?format=png&name=240x240) 70 30, auto;
   z-index: 2000;
@@ -431,6 +432,7 @@ input:focus, textarea:focus {
 /* FOOTER */
 footer {
   font-size: 12px;
+  margin-top:10%;
 }
 /* FOOTER ENDS HERE */
 
